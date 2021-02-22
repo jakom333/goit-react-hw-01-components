@@ -1,0 +1,25 @@
+.table {
+  width: 600px;
+  border: 1px solid black;
+}
+
+.headRow {
+  height: 50px;
+  background-color: rgb(84, 209, 231);
+}
+
+.headData {
+  width: 200px;
+}
+
+.tableBody {
+  text-align: center;
+}
+
+.tableRow {
+  height: 50px;
+}
+
+.tableRow:nth-child(even) {
+  background-color: rgb(209, 209, 209);
+}
